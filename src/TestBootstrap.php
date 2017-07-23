@@ -11,8 +11,12 @@ use Magento\Framework\App\State;
 class TestBootstrap
 {
 
+    /**
+     * @param string $magentoPath Path relative to root project dir
+     */
     public function run($magentoPath = '')
     {
+        $magentoPath = dirname(dirname(dirname(dirname(__DIR__)))) . (empty($magentoPath) ? '' : '/' . $magentoPath);
         $this->setupPaths($magentoPath);
         $this->setupAutoloader();
         $this->createApp();
