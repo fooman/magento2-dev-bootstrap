@@ -1,0 +1,20 @@
+{
+  "name": "fooman/magento2-dev-bootstrap",
+  "autoload": {
+    "files": [
+      "src/functions.php",
+      "src/bootstrap.php"
+    ],
+    "psr-4": {
+      "Fooman\\Magento2DevBootstrap\\": "src/"
+    }
+  },
+  "require": {
+    "magento/framework": "^100.0",
+    "zendframework/zend-code": "^3.1",
+    "magento/zendframework1": "~1.13.0",
+    "colinmollenhour/cache-backend-file": "1.4",
+    "monolog/monolog": "^1.17",
+    "magento/magento-composer-installer": ">=0.1.11"
+  }
+}
