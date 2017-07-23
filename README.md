@@ -1,7 +1,7 @@
 Fooman Magento 2 - Minimal Bootstrap
 ===================
 
-This repository provides a barebones Magento 2 with a functional framework for development:
+This repository provides a bare bones Magento 2 functional framework for development:
 - instantiated ObjectManager
 - working autogeneration of factories, proxies, etc 
 - translations
@@ -18,7 +18,8 @@ Add this repository to your root composer.json file:
 
     composer config repositories.fooman-magento2-dev-bootstrap vcs http://github.com/fooman/magento2-dev-bootstrap
 
-Magento's composer installer currently insists on the presence of the app/etc folder. Create it with:
+Magento's composer installer currently insists on the presence of the `app/etc` folder (you probably want to gitignore it). 
+Create it with:
 
     mkdir -p app/etc
 
