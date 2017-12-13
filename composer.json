@@ -10,11 +10,11 @@
     }
   },
   "require": {
-    "magento/framework": "^100.0",
+    "magento/framework": "*",
     "zendframework/zend-code": "^3.1",
     "magento/zendframework1": "~1.13.0",
-    "colinmollenhour/cache-backend-file": "1.4",
+    "colinmollenhour/cache-backend-file": "^1.4",
     "monolog/monolog": "^1.17",
-    "magento/magento-composer-installer": ">=0.1.11"
+    "magento/magento-composer-installer": "*"
   }
 }
