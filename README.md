@@ -5,6 +5,7 @@ This repository provides a bare bones Magento 2 functional framework for develop
 - instantiated ObjectManager
 - working autogeneration of factories, proxies, etc 
 - translations
+- all registered modules are enabled
 
 Magento 2 is running in developer mode without database.
 
